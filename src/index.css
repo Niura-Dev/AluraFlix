@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-background: #262626;
+  --color-bg-edit: #03122F;
+  --color-green: #00C86F;
+  --color-light-blue: #6BD1FF;
+  --color-yellow: #FFBA05;
+  --color-error: #FF0000;
+  --color-light-gray: #A5A5A5;
+  --color-white: #F5F5F5;
+  --color-blue: #007BFF;
+  --color-black: #000000;
+  --color-banner: #001233;
+}

@@ -1,0 +1,37 @@
+.link {
+    font-size: clamp(14px, 10px, 20px); 
+    font-weight: bold;
+    padding: 0.85rem;
+    color: var(--color-white);
+    border-radius: 0.625rem;
+    border: 2px solid var(--color-white);
+    margin: 0 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9.35rem;
+}
+
+.link:hover {
+    color: var(--color-light-blue);
+    border-color: var(--color-light-blue);
+}
+
+@media (max-width: 600px) {
+    .link {
+        border-radius: 0;
+        border: none;
+        border-bottom: 2px solid var(--color-white);
+    }
+
+    .link:hover {
+        color: var(--color-light-blue);
+        border-bottom: 2px solid var(--color-light-blue);
+    }
+
+    .activeLink {
+        border-bottom: 2px solid var(--color-blue);
+    }
+}
