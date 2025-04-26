@@ -1,26 +1,21 @@
+/* loading.css */
 .loading-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
-    padding: 1rem;
-    margin: 0;
-    overflow: hidden;
+    height: 100vh;
+    width: 100%;
 }
 
-.loading-container h2 {
-    margin: 4rem; 
-    color: #5e22f0;
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid var(--color-light-gray);
+    border-top-color: var(--color-light-blue);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
 }
 
-.react-loaders-kit {
-    width: 100px;
-    height: 100px;
-    max-width: 150px; 
-    max-height: 150px; 
+@keyframes spin {
+    to { transform: rotate(360deg); }
 }

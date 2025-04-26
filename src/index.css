@@ -1,14 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--color-bg);
-  overflow-x: hidden;
-  box-sizing: border-box;
-}
-
 :root {
-  --color-background: #262626;
+  --color-bg: #262626;
   --color-bg-edit: #03122F;
   --color-green: #00C86F;
   --color-light-blue: #6BD1FF;
@@ -19,4 +10,24 @@
   --color-blue: #007BFF;
   --color-black: #000000;
   --color-banner: #001233;
+  --color-frontend: var(--color-light-blue);
+  --color-backend: var(--color-green);
+  --color-management: var(--color-yellow);
+  --color-dark-blue: #0056b3;
+  --color-blue-dark: #1a1a2e;
+  --color-white-smoke: #f5f5f5;
+  --color-dark-gray: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  overflow-x: hidden;
 }
